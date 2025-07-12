@@ -109,7 +109,10 @@ export default function Footer() {
     SHAIBU MZOGO
     <span className="absolute bottom-0 left-0 w-0 h-px bg-cyan-400 group-hover:w-full transition-all duration-300 ease-out"></span>
   </span>
-</p>        </div>
+</p>  
+          <p className="text-sm mt-3 text-gray-600 font-mono tracking-wider relative inline-block group">__ unmatched perspicacity coupled with sheer indefatigability makes me a feared opponent in all aspect of human endeavor __</p>
+
+      </div>
       </div>
       
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
