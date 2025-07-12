@@ -254,7 +254,7 @@ export default function Header() {
                 }}
               >
                 <div className="flex justify-center space-x-6">
-                  {['github', 'linkedin', 'twitter'].map((social) => (
+                  {['github.com/bravomzogo/', 'com/profile.php?id=61575514160069', 'twitter'].map((social) => (
                     <motion.a
                       key={social}
                       href={`https://${social}.com`}
