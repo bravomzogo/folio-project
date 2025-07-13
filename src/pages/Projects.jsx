@@ -18,7 +18,7 @@ export default function Projects() {
               tags: ["Django", "Javascript", "Postgresql"],
               github_link: null,
               demo_link: "https://udomshop.xyz",
-              image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/491941684_122097456488850472_8945806269306568656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7dLuBdjxvtUQ7kNvwF0EmpD&_nc_oc=AdlZY_GADeogSopAhbFnR3kTYrfLSqZ6-a1bTv0REPS1zWsWJlpjo5uRuZhXw1ttzbo&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=smiQl6KrjCTD_lYUIBYp-Q&oh=00_AfQgGlWcBoHv3mx0YzKhf-Q82Gj6qO4XgMvWRVBKSayvSQ&oe=6879012E"
             },
             {
               id: 2,
@@ -26,8 +26,8 @@ export default function Projects() {
               description: "On progress heavy weight management system.",
               tags: ["Django", "Javascript", "Sqlite"],
               github_link: null,
-              demo_link: 'civemuslim.com',
-              image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              demo_link: "https://civemuslim.com/",
+              image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/517898603_122127938486850472_156793713135350994_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DEa7HzbwsbsQ7kNvwHhqzXG&_nc_oc=AdkWvd28pNf4KRLOSDjfZngkYe0letEk02F7v6HMseaEudk8ZOP-TE0lH6W1ZCfejIw&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=6EmqASFo1EkzW8rKd9kTxw&oh=00_AfSwkHsFlvFrBfWXAoVQBmV_mRJ_cM0UEJv9cDIgq1sJWQ&oe=6878FD2C"
             },
             {
               id: 3,
@@ -36,7 +36,7 @@ export default function Projects() {
               tags: ["Django", "Javascript", "HTML/CSS"],
               github_link: null,
               demo_link: "https://ahmes-secondary.onrender.com",
-              image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/518946402_122127934706850472_5646150557234048409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=V9SHSmAJZNkQ7kNvwFcKFX7&_nc_oc=AdlH_sP_PNUhdy5BwVNwqUAvehd21C07C0W8KOvLjkKusl_kTfVpW-GTKBmvTxheyX4&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=U37Upz1LYlgdC4YU7cxwxQ&oh=00_AfR432tVrOMJfflD5LUjA51lqjdhO4itmgPoqkwJveFC9g&oe=68790E6C"
             }
           ]);
           setLoading(false);
