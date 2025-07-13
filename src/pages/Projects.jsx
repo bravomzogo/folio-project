@@ -14,11 +14,12 @@ export default function Projects() {
             {
               id: 1,
               title: "E-Commerce Platform",
-              description: "A full-featured online store with real chating integration and other cool staff.",
+              description: "A full-featured online store with real chatting integration and other cool staff.",
               tags: ["Django", "Javascript", "Postgresql"],
               github_link: null,
               demo_link: "https://udomshop.xyz",
-              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/491941684_122097456488850472_8945806269306568656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7dLuBdjxvtUQ7kNvwF0EmpD&_nc_oc=AdlZY_GADeogSopAhbFnR3kTYrfLSqZ6-a1bTv0REPS1zWsWJlpjo5uRuZhXw1ttzbo&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=smiQl6KrjCTD_lYUIBYp-Q&oh=00_AfQgGlWcBoHv3mx0YzKhf-Q82Gj6qO4XgMvWRVBKSayvSQ&oe=6879012E"
+              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/491941684_122097456488850472_8945806269306568656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7dLuBdjxvtUQ7kNvwF0EmpD&_nc_oc=AdlZY_GADeogSopAhbFnR3kTYrfLSqZ6-a1bTv0REPS1zWsWJlpjo5uRuZhXw1ttzbo&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=smiQl6KrjCTD_lYUIBYp-Q&oh=00_AfQgGlWcBoHv3mx0YzKhf-Q82Gj6qO4XgMvWRVBKSayvSQ&oe=6879012E",
+              type: "web" // Added type
             },
             {
               id: 2,
@@ -27,7 +28,8 @@ export default function Projects() {
               tags: ["Django", "Javascript", "Sqlite"],
               github_link: null,
               demo_link: "https://civemuslim.com/",
-              image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/517898603_122127938486850472_156793713135350994_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DEa7HzbwsbsQ7kNvwHhqzXG&_nc_oc=AdkWvd28pNf4KRLOSDjfZngkYe0letEk02F7v6HMseaEudk8ZOP-TE0lH6W1ZCfejIw&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=6EmqASFo1EkzW8rKd9kTxw&oh=00_AfSwkHsFlvFrBfWXAoVQBmV_mRJ_cM0UEJv9cDIgq1sJWQ&oe=6878FD2C"
+              image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/517898603_122127938486850472_156793713135350994_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DEa7HzbwsbsQ7kNvwHhqzXG&_nc_oc=AdkWvd28pNf4KRLOSDjfZngkYe0letEk02F7v6HMseaEudk8ZOP-TE0lH6W1ZCfejIw&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=6EmqASFo1EkzW8rKd9kTxw&oh=00_AfSwkHsFlvFrBfWXAoVQBmV_mRJ_cM0UEJv9cDIgq1sJWQ&oe=6878FD2C",
+              type: "web" // Added type
             },
             {
               id: 3,
@@ -36,8 +38,20 @@ export default function Projects() {
               tags: ["Django", "Javascript", "HTML/CSS"],
               github_link: null,
               demo_link: "https://ahmes-secondary.onrender.com",
-              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/518946402_122127934706850472_5646150557234048409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=V9SHSmAJZNkQ7kNvwFcKFX7&_nc_oc=AdlH_sP_PNUhdy5BwVNwqUAvehd21C07C0W8KOvLjkKusl_kTfVpW-GTKBmvTxheyX4&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=U37Upz1LYlgdC4YU7cxwxQ&oh=00_AfR432tVrOMJfflD5LUjA51lqjdhO4itmgPoqkwJveFC9g&oe=68790E6C"
-            }
+              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/518946402_122127934706850472_5646150557234048409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=V9SHSmAJZNkQ7kNvwFcKFX7&_nc_oc=AdlH_sP_PNUhdy5BwVNwqUAvehd21C07C0W8KOvLjkKusl_kTfVpW-GTKBmvTxheyX4&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=U37Upz1LYlgdC4YU7cxwxQ&oh=00_AfR432tVrOMJfflD5LUjA51lqjdhO4itmgPoqkwJveFC9g&oe=68790E6C",
+              type: "web" // Added type
+            },
+            // Add a mobile project if needed, e.g.:
+             {
+               id: 4,
+               title: "Health Data Access  and Auditing Mobile App",
+               description: "The app with auding capability.",
+               tags: ["React Native", "Javascript"],
+               github_link: null,
+               demo_link: "https://hdaacs.onrender.com",
+               image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/518236552_122127967856850472_2113817116067034844_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-LrQ_fGgiXcQ7kNvwFza0Sp&_nc_oc=AdkE8NTk3-Jq8QwdFSalsKMmijIqREq7Kg69wcTmKEPpa3FeeJOEbE0mvSWE3CzfM1o&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=gG5dhdau_Qtg-k-83Qc8eQ&oh=00_AfS6Xo9RQQvv0FTlZmmggpszHG6iAZgXxJvJagbE3iN-lg&oe=68793EDF",
+               type: "mobile"
+                }
           ]);
           setLoading(false);
         }, 1000);
@@ -50,6 +64,11 @@ export default function Projects() {
     fetchData();
   }, []);
 
+  // Filter projects based on the selected filter
+  const filteredProjects = filter === 'all' 
+    ? projects 
+    : projects.filter(project => project.type === filter);
+
   return (
     <section className="relative py-24 bg-gradient-to-b from-gray-900 to-gray-800 text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
@@ -60,7 +79,7 @@ export default function Projects() {
             My Creations
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-pink-500 mx-auto rounded-full"></div>
-          <p className="text-xl text-gray-200 mt-6 max-w-3xl mx-auto opacity-90 animate-slide-in-up">
+          <p className="text-xl text-gray-200 mt-6 max-x-3xl mx-auto opacity-90 animate-slide-in-up">
             A showcase of my innovative projects and technical achievements.
           </p>
         </div>
@@ -91,18 +110,18 @@ export default function Projects() {
                   <div className="h-4 bg-gray-700/50 rounded w-full mb-2"></div>
                   <div className="h-4 bg-gray-700/50 rounded w-5/6 mb-4"></div>
                   <div className="flex space-x-2">
-                    <div className="h-8 w-20 bg-gray-700/50 rounded-full"></div>
+ Fifteen:                    <div className="h-8 w-20 bg-gray-700/50 rounded-full"></div>
                     <div className="h-8 w-20 bg-gray-700/50 rounded-full"></div>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-        ) : projects.length === 0 ? (
-          <p className="text-center text-xl text-gray-200 animate-fade-in">No projects available.</p>
+        ) : filteredProjects.length === 0 ? (
+          <p className="text-center text-xl text-gray-200 animate-fade-in">No projects available for this filter.</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {projects.map((project) => (
+            {filteredProjects.map((project) => (
               <div key={project.id} className="bg-gray-900/70 rounded-2xl shadow-lg backdrop-blur-sm overflow-hidden transition-all duration-500 hover:shadow-cyan-500/50 hover:scale-105">
                 <div className="h-64 overflow-hidden relative">
                   <img 
