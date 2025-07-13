@@ -14,28 +14,28 @@ export default function Projects() {
             {
               id: 1,
               title: "E-Commerce Platform",
-              description: "A full-featured online store with payment integration and admin dashboard.",
-              tags: ["React", "Node.js", "MongoDB"],
-              github_link: "https://github.com",
-              demo_link: "https://example.com",
+              description: "A full-featured online store with real chating integration and other cool staff.",
+              tags: ["Django", "Javascript", "Postgresql"],
+              github_link: null,
+              demo_link: "https://udomshop.xyz",
               image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             },
             {
               id: 2,
-              title: "Task Management App",
-              description: "A productivity application for managing personal and team tasks with real-time updates.",
-              tags: ["React", "Firebase", "Redux"],
-              github_link: "https://github.com",
-              demo_link: null,
+              title: "Civemuslim.com",
+              description: "On progress heavy weight management system.",
+              tags: ["Django", "Javascript", "Sqlite"],
+              github_link: null,
+              demo_link: 'civemuslim.com',
               image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             },
             {
               id: 3,
-              title: "Weather Dashboard",
-              description: "Real-time weather information with 5-day forecast and location search.",
-              tags: ["JavaScript", "API", "CSS"],
-              github_link: "https://github.com",
-              demo_link: "https://example.com",
+              title: "Ahmes Secondary School Management System",
+              description: "Robust Ahmes Secondary School with high level of security and usability.",
+              tags: ["Django", "Javascript", "HTML/CSS"],
+              github_link: null,
+              demo_link: "https://ahmes-secondary.onrender.com",
               image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             }
           ]);
@@ -66,7 +66,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {['all', 'web', 'mobile', 'api'].map((type) => (
+          {['all', 'web', 'mobile'].map((type) => (
             <button
               key={type}
               onClick={() => setFilter(type)}
