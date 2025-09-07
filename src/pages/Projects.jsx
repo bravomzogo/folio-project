@@ -18,7 +18,7 @@ export default function Projects() {
               tags: ["Django", "Javascript", "Postgresql"],
               github_link: null,
               demo_link: "https://nahnu-shop.onrender.com",
-              image: "/nah.jpg",
+              image: "/nah.png",
               type: "web" // Added type
             },
             {
