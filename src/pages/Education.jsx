@@ -15,8 +15,8 @@ export default function Education() {
               institution: "University of Dodoma",
               degree: "Bachelor of Science",
               field: "Software Engineering",
-              start_date: "2026",
-              end_date: "2022",
+              start_date: "2022",
+              end_date: "2026",
               description: "Specialized in software engineering and web development. Participated in various projects including a full-stack web application and a mobile app development course."
             },
             {
