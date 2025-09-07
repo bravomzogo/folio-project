@@ -17,8 +17,8 @@ export default function Projects() {
               description: "A full-featured online store with real chatting integration and other cool staff.",
               tags: ["Django", "Javascript", "Postgresql"],
               github_link: null,
-              demo_link: "https://udomshop.xyz",
-              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/491941684_122097456488850472_8945806269306568656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7dLuBdjxvtUQ7kNvwF0EmpD&_nc_oc=AdlZY_GADeogSopAhbFnR3kTYrfLSqZ6-a1bTv0REPS1zWsWJlpjo5uRuZhXw1ttzbo&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=smiQl6KrjCTD_lYUIBYp-Q&oh=00_AfQgGlWcBoHv3mx0YzKhf-Q82Gj6qO4XgMvWRVBKSayvSQ&oe=6879012E",
+              demo_link: "https://nahnu-shop.onrender.com",
+              image: "/p.jpg",
               type: "web" // Added type
             },
             {
@@ -28,7 +28,7 @@ export default function Projects() {
               tags: ["Django", "Javascript", "Sqlite"],
               github_link: null,
               demo_link: "https://civemuslim.com/",
-              image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/517898603_122127938486850472_156793713135350994_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DEa7HzbwsbsQ7kNvwHhqzXG&_nc_oc=AdkWvd28pNf4KRLOSDjfZngkYe0letEk02F7v6HMseaEudk8ZOP-TE0lH6W1ZCfejIw&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=6EmqASFo1EkzW8rKd9kTxw&oh=00_AfSwkHsFlvFrBfWXAoVQBmV_mRJ_cM0UEJv9cDIgq1sJWQ&oe=6878FD2C",
+              image: "cive.png",
               type: "web" // Added type
             },
             {
@@ -38,7 +38,7 @@ export default function Projects() {
               tags: ["Django", "Javascript", "HTML/CSS"],
               github_link: null,
               demo_link: "https://ahmes-secondary.onrender.com",
-              image: "https://scontent.fdar5-1.fna.fbcdn.net/v/t39.30808-6/518946402_122127934706850472_5646150557234048409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=V9SHSmAJZNkQ7kNvwFcKFX7&_nc_oc=AdlH_sP_PNUhdy5BwVNwqUAvehd21C07C0W8KOvLjkKusl_kTfVpW-GTKBmvTxheyX4&_nc_zt=23&_nc_ht=scontent.fdar5-1.fna&_nc_gid=U37Upz1LYlgdC4YU7cxwxQ&oh=00_AfR432tVrOMJfflD5LUjA51lqjdhO4itmgPoqkwJveFC9g&oe=68790E6C",
+              image: "image.png",
               type: "web" // Added type
             },
             // Add a mobile project if needed, e.g.:
@@ -49,7 +49,7 @@ export default function Projects() {
                tags: ["React Native", "Javascript"],
                github_link: null,
                demo_link: "https://hdaacs.onrender.com",
-               image: "https://scontent.fdar12-1.fna.fbcdn.net/v/t39.30808-6/518236552_122127967856850472_2113817116067034844_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-LrQ_fGgiXcQ7kNvwFza0Sp&_nc_oc=AdkE8NTk3-Jq8QwdFSalsKMmijIqREq7Kg69wcTmKEPpa3FeeJOEbE0mvSWE3CzfM1o&_nc_zt=23&_nc_ht=scontent.fdar12-1.fna&_nc_gid=gG5dhdau_Qtg-k-83Qc8eQ&oh=00_AfS6Xo9RQQvv0FTlZmmggpszHG6iAZgXxJvJagbE3iN-lg&oe=68793EDF",
+               image: "data.png",
                type: "mobile"
                 }
           ]);

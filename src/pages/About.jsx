@@ -79,7 +79,7 @@ export default function About() {
             <div className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-3xl overflow-hidden border-4 border-cyan-400/50 shadow-2xl transform hover:scale-105 transition-transform duration-700">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-pink-500/20 animate-pulse-slow"></div>
               <img 
-                src="https://scontent.fdar2-1.fna.fbcdn.net/v/t39.30808-6/503235555_122119251320850472_3733979477391604983_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=T8MEv7dUFpMQ7kNvwHzVvY-&_nc_oc=AdkfC_-3U0DhFMJXcNwXLHRvvywUdZWXoUXyEXL81zHzlfLGKmxmARk_Uu4REQ1X3lE&_nc_zt=23&_nc_ht=scontent.fdar2-1.fna&_nc_gid=bfsGZd2oBOqez67CsZwmmA&oh=00_AfRR4b04FbtBOuJV8KAaXu5Vr_O7D7CqNkSB_kBbJ5_PIA&oe=68789FA7" 
+                src="/p.jpg" 
                 alt="Shaibu" 
                 className="w-full h-full object-cover"
               />
